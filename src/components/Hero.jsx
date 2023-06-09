@@ -1,3 +1,13 @@
+/**
+ * @ Author: Adam Zhang
+ * @ Create Time: 2023-02-27 10:41:02
+ * @ Modified by: Adam Zhang
+ * @ Modified time: 2023-06-09 09:39:56
+ * @ Description: the hero section of the portfolio, below the navbar
+ * the computer 3d image is also added here
+ */
+
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
