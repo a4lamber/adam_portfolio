@@ -17,14 +17,38 @@ import {
     docker,
     meta,
     starbucks,
+    alcanada,
+    SAICMotor,
+    uw,
+    liburdi,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    aws,
+    azure,
+    python,
+    java,
+    rabbitmq,
+    spark,
+    snowflake,
+    dbt,
+    mysql,
+    postgres,
+    airflow,
+    databricks,
+    //
+    dadjokepipe,
+    healthdataflow,
+    airbnb,
+    tiktokad,
   } from "../assets";
   
+
+
+
   export const navLinks = [
     {
       id: "about",
@@ -42,131 +66,164 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Software Engineer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "ETL pipeline",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Climber",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Mario Kart Player",
       icon: creator,
     },
   ];
   
+  //tech stack
+  /*
+  - cloud vendor
+  - programming language
+  - computing framework
+  - database and data warehouse
+  - transformation tool
+  - orchestration tool
+  - deployment tool
+  */
   const technologies = [
+    // cloud vendor 我现在只用过aws和azure
     {
-      name: "HTML 5",
-      icon: html,
+      name: "aws",
+      icon: aws,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "azure",
+      icon: azure,
+    },
+    // programming language 
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "java",
+      icon: java,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
+    /* computing framework和相关方便的tool
+    - spark
+    - databricks
+    */
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "spark",
+      icon: spark,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "databricks",
+      icon: databricks,
+    },
+    /*
+    database and data warehouse相关技术
+    - postgre
+    - mongodb (还没学)
+    - snowflake
+    - dbt (在datawarehouse里面做transformation)
+    */
+    {
+      name: "postgre",
+      icon: postgres,
+    },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    {
+      name: "snowflake",
+      icon: snowflake,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "dbt",
+      icon: dbt,
     },
     {
       name: "git",
       icon: git,
     },
+    /*
+    orchestration tool and deployment tool
+    - airflow
+    - docker
+    */
     {
-      name: "figma",
-      icon: figma,
+      name: "airflow",
+      icon: airflow,
     },
     {
       name: "docker",
       icon: docker,
     },
+    // 杂七杂八的tech stack, 考虑不加了，用过但不是很熟练
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Application Engineer (co-op)",
+      company_name: "Liburdi Automation",
+      icon: liburdi,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Sep 2016 - Dec 2016 & May 2017 - Aug 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "experience 1 place holder.",
+        "experience 2 place holder",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Graduate Research Student",
+      company_name: "University of Waterloo - Fuel Cell and Green Energy Lab",
+      icon: uw,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2018 - Dec 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "experience 1 place holder.",
+        "experience 2 place holder",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Data Analyst",
+      company_name: "Shanghai Automotive",
+      icon: SAICMotor,
+      iconBg: "#E6DEDD",
+      date: "Feb 2022 - Aug 2022",
+      points: [
+        "experience 1 place holder.",
+        "experience 2 place holder",
+      ],
+    },
+    {
+      title: "Software Engineer",
+      company_name: "A & L Canada Laboratories",
+      icon: alcanada,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Mar 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "experience 1 place holder.",
+        "experience 2 place holder",
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -196,69 +253,105 @@ import {
     },
   ];
   
+  /* 介绍我的项目经验, 用来填充work section
+  主要介绍
+  - adtrack
+  - healthdataflow
+  - dadjokepipe
+  - airbnb sentiment analysis
+  */
+
   const projects = [
     {
-      name: "Car Rent",
+      name: "AdTrack",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "End-to-end data pipeline that collects data from tiktok, facebook and instagram APIs, and \
+         transforms the data into a unified format to track major competitors' ad performance and \
+         social media presence.",
       tags: [
         {
-          name: "react",
+          name: "aws",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "airflow",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "pyspark",
           color: "pink-text-gradient",
         },
+        {
+          name: "terraform",
+          color: "blue-text-gradient",
+        }
       ],
-      image: carrent,
+      image: tiktokad,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "HealthDataFlow",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "HealthDataFlow is a data pipeline for extracting and processing hospital data from various sources. \
+        It provides a streamlined and customizable solution for collecting and analyzing health data, \
+        including patient records, clinical data, and financial data. With HealthDataFlow, you can easily track hospital performance, monitor trends, and optimize your healthcare operations for maximum efficiency and patient satisfaction.",
       tags: [
         {
-          name: "react",
+          name: "aws",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pyspark",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "postgresql",
           color: "pink-text-gradient",
         },
+        {
+          name: "dbt",
+          color: "blue-text-gradient",
+        }
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: healthdataflow,
+      source_code_link: "https://github.com/a4lamber/aws-s3",
     },
     {
-      name: "Trip Guide",
+      name: "DadJokePipe",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "DadJokePipe is a data pipeline for extracting and processing jokes from the DadJoke API and delivering them to clients using Apache Airflow. \
+        It provides a streamlined solution to make my clients laugh and have fun",
       tags: [
         {
-          name: "nextjs",
+          name: "airflow",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "docker",
           color: "green-text-gradient",
+        }
+      ],
+      image: dadjokepipe,
+      source_code_link: "https://github.com/a4lamber/dadjoke-airflow-db",
+    },
+    {
+      name: "Airbnb Sentiment Analysis",
+      description:
+        "This project is a data pipeline to process Airbnb reviews and perform sentiment analysis on the reviews. \
+        It's rumored that full moon have an effect on human mood. From airbnb sentiment analysis, we are going\
+        find out if there is any correlation between full moon and airbnb reviews.",
+      tags: [
+        {
+          name: "dbt",
+          color: "blue-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+          name: "snowflake",
+          color: "green-text-gradient",
+        }
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: airbnb,
+      source_code_link: "https://github.com/a4lamber/airbnb-fullmoon-sentiment-analysis",
     },
   ];
   

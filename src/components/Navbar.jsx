@@ -1,3 +1,12 @@
+/**
+ * @ Author: Adam Zhang
+ * @ Create Time: 2023-02-27 10:41:16
+ * @ Modified by: Your name
+ * @ Modified time: 2023-06-09 15:18:57
+ * @ Description: Deisgn of the navigation bar
+ */
+
+
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -42,8 +51,8 @@ const Navbar = () => {
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Adam &nbsp;
-            <span className='sm:block hidden'> | Data Engineer</span>
+            Adam Zhang &nbsp;
+            <span className='sm:block hidden'> | Software Engineer | Climber</span>
           </p>
         </Link>
 

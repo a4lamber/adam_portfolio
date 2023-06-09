@@ -1,8 +1,8 @@
 /**
  * @ Author: Adam Zhang
  * @ Create Time: 2023-02-27 10:41:02
- * @ Modified by: Adam Zhang
- * @ Modified time: 2023-06-09 09:39:56
+ * @ Modified by: Your name
+ * @ Modified time: 2023-06-09 14:36:10
  * @ Description: the hero section of the portfolio, below the navbar
  * the computer 3d image is also added here
  */
@@ -15,6 +15,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
+    // creating我们的背景图
     <section className={`relative w-full h-screen mx-auto`}>
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
@@ -29,8 +30,12 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Adam</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop data pipeline <br className='sm:block hidden' />
-            but most of my time i spend is on data wrangling!
+            In may day job, i specialize in developing data pipelines to help organizations make sense of complex geo-spatial datasets. <br className='sm:block hidden' />
+          </p>
+          {/* empty line here */}
+          <p></p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            In my free time, i enjoy rock climbing, hiking, and coding for fun.
           </p>
         </div>
       </div>

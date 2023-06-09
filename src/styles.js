@@ -1,3 +1,12 @@
+/**
+ * @ Author: Adam Zhang
+ * @ Create Time: 2023-06-09 08:19:20
+ * @ Modified by: Adam Zhang
+ * @ Modified time: 2023-06-09 10:16:31
+ * @ Description: 一些字体大小的配置
+ */
+
+
 const styles = {
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",
