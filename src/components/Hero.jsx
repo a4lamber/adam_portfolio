@@ -2,7 +2,7 @@
  * @ Author: Adam Zhang
  * @ Create Time: 2023-02-27 10:41:02
  * @ Modified by: Your name
- * @ Modified time: 2023-06-09 14:36:10
+ * @ Modified time: 2023-07-04 15:58:19
  * @ Description: the hero section of the portfolio, below the navbar
  * the computer 3d image is also added here
  */
@@ -30,12 +30,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Adam</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            In may day job, i specialize in developing data pipelines to help organizations make sense of complex geo-spatial datasets. <br className='sm:block hidden' />
+            In my day job, I design data pipeline and geo-database for digital agriculture within Canada. <br className='sm:block hidden' />
           </p>
           {/* empty line here */}
           <p></p>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            In my free time, i enjoy rock climbing, hiking, and coding for fun.
+            Are you in need of a skilled freelancer for your data pipeline? Look no further!
+            I am open for freelance work and ready to tackle any challenge you throw my way.
           </p>
         </div>
       </div>

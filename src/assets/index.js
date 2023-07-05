@@ -35,6 +35,7 @@ import mysql from "./tech/mysql.png";
 import postgres from "./tech/postgres.png";
 import airflow from "./tech/airflow.png";
 import databricks from "./tech/databricks.png";
+import terraform from "./tech/terraform.png";
 
 // 加入工作过的公司logo
 import SAICMotor from "./company/SAICMotor.png";
@@ -105,6 +106,7 @@ export {
   postgres,
   airflow,
   databricks,
+  terraform,
   // 项目背景图
   dadjokepipe,
   healthdataflow,

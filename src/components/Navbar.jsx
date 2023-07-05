@@ -1,11 +1,11 @@
 /**
  * @ Author: Adam Zhang
- * @ Create Time: 2023-02-27 10:41:16
+ * @ Create Time: 2023-07-01 10:41:16
  * @ Modified by: Your name
- * @ Modified time: 2023-06-09 15:18:57
+ * @ Modified time: 2023-07-04 20:43:37
  * @ Description: Deisgn of the navigation bar
- */
-
+ * - 2023/07/04: add github and linkedin links and change the font size
+*/
 
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
@@ -52,7 +52,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Adam Zhang &nbsp;
-            <span className='sm:block hidden'> | Software Engineer | Climber</span>
+            <span className='sm:block hidden'> | Software Engineer | freelancer | Climber |</span>
           </p>
         </Link>
 
@@ -67,6 +67,12 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href="<https://www.linkedin.com/in/yixiangloo/>">LinkedIn</a>
+          </li>
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href="<https://github.com/a4lamber>">Github</a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -95,6 +101,12 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li>
+                <a href="https://www.linkedin.com/in/yixiangloo/">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/a4lamber">Github</a>
+              </li>
             </ul>
           </div>
         </div>

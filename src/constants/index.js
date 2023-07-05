@@ -44,6 +44,7 @@ import {
     healthdataflow,
     airbnb,
     tiktokad,
+    terraform,
   } from "../assets";
   
 
@@ -70,7 +71,7 @@ import {
       icon: web,
     },
     {
-      title: "ETL pipeline",
+      title: "Freelancer",
       icon: mobile,
     },
     {
@@ -78,7 +79,7 @@ import {
       icon: backend,
     },
     {
-      title: "Mario Kart Player",
+      title: "Life Long Learner",
       icon: creator,
     },
   ];
@@ -173,6 +174,10 @@ import {
       name: "React JS",
       icon: reactjs,
     },
+    {
+      name: "terraform",
+      icon: terraform,
+    },
     // {
     //   name: "Three JS",
     //   icon: threejs,
@@ -181,14 +186,25 @@ import {
   
   const experiences = [
     {
-      title: "Application Engineer (co-op)",
-      company_name: "Liburdi Automation",
-      icon: liburdi,
+      title: "Software Engineer (Data-infra)",
+      company_name: "A & L Canada Laboratories",
+      icon: alcanada,
       iconBg: "#383E56",
-      date: "Sep 2016 - Dec 2016 & May 2017 - Aug 2017",
+      date: "Mar 2023 - Present",
       points: [
-        "experience 1 place holder.",
-        "experience 2 place holder",
+        "Automated ETL pipelines to process drone and satellite images in AWS with PySpark, orchestrated with Airflow for monitoring and alerting",
+        "Implemented a messaging system with RabbitMQ to facilitate communication between microservices",
+      ],
+    },
+    {
+      title: "Data Engineer",
+      company_name: "Shanghai Automotive",
+      icon: SAICMotor,
+      iconBg: "#E6DEDD",
+      date: "Feb 2022 - Aug 2022",
+      points: [
+        "Designed an ETL pipeline to handle data ingestion/transformation of fuel cell engine testing data(time-series) using PySpark and cron reducing manual labor by more than 100 hours/month",
+        "Collaborated closely with the testing team and sales team to adjust metrics, while constructing numerous engine testing and buses telemetry data using PowerBI",
       ],
     },
     {
@@ -198,32 +214,21 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2018 - Dec 2021",
       points: [
-        "experience 1 place holder.",
-        "experience 2 place holder",
+        "Proposed a robust algorithm to reconstruct the 3D structure of porous media based on 2D images to restore electrode structure",
+        "Developed a numerical model to simulate the fracture onset and propagation in porous media",
       ],
     },
     {
-      title: "Data Analyst",
-      company_name: "Shanghai Automotive",
-      icon: SAICMotor,
-      iconBg: "#E6DEDD",
-      date: "Feb 2022 - Aug 2022",
-      points: [
-        "experience 1 place holder.",
-        "experience 2 place holder",
-      ],
-    },
-    {
-      title: "Software Engineer",
-      company_name: "A & L Canada Laboratories",
-      icon: alcanada,
+      title: "Application Engineer (co-op)",
+      company_name: "Liburdi Automation",
+      icon: liburdi,
       iconBg: "#383E56",
-      date: "Mar 2023 - Present",
+      date: "Sep 2016 - Dec 2016 & May 2017 - Aug 2017",
       points: [
-        "experience 1 place holder.",
-        "experience 2 place holder",
+        "Built a data pipeline to ingest and transform point cloud data of turbine blades using Python and cron, Saved over 80% manual labor",
+        "Designed interactive user interface with Python (PyQt5) to help design engineers to effectively visualize and query turbine point cloud data",
       ],
-    }
+    },
   ];
   
   const testimonials = [

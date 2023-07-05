@@ -2,10 +2,11 @@
  * @ Author: Adam Zhang
  * @ Create Time: 2023-02-27 10:40:40
  * @ Modified by: Your name
- * @ Modified time: 2023-06-09 13:48:59
+ * @ Modified time: 2023-07-04 16:52:59
  * @ Description: Contact section of the Earth
  * 可以填表格，发送邮件给我, 用了emailjs (还未implement)
  */
+
 
 
 import React, { useRef, useState } from "react";
@@ -47,9 +48,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Adam",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "datawithadamzhang@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
@@ -133,12 +134,13 @@ const Contact = () => {
         </form>
       </motion.div>
 
-      <motion.div
+      {/* WebGL花费太多资源了, hide 2nd image */}
+      {/* <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
-      </motion.div>
+      </motion.div> */}
     </div>
   );
 };

@@ -1,8 +1,8 @@
 /**
  * @ Author: Adam Zhang
  * @ Create Time: 2023-02-27 10:40:28
- * @ Modified by: Adam Zhang
- * @ Modified time: 2023-06-09 10:41:12
+ * @ Modified by: Your name
+ * @ Modified time: 2023-07-04 16:04:46
  * @ Description: "about" section of the portfolio
  */
 
@@ -58,7 +58,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 0.1)}
       >
-        I am a software engineer working on data pipelines. placeholder
+
       </motion.p>
 
       {/* diplay技能树 */}
