@@ -2,7 +2,7 @@
  * @ Author: Adam Zhang
  * @ Create Time: 2023-07-01 10:41:16
  * @ Modified by: Your name
- * @ Modified time: 2023-07-04 20:43:37
+ * @ Modified time: 2023-07-04 22:57:25
  * @ Description: Deisgn of the navigation bar
  * - 2023/07/04: add github and linkedin links and change the font size
 */
@@ -68,10 +68,10 @@ const Navbar = () => {
             </li>
           ))}
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-            <a href="<https://www.linkedin.com/in/yixiangloo/>">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/yixiangloo/">LinkedIn</a>
           </li>
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-            <a href="<https://github.com/a4lamber>">Github</a>
+            <a href="https://github.com/a4lamber">Github</a>
           </li>
         </ul>
 
