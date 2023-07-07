@@ -1,10 +1,11 @@
 /**
  * @ Author: Adam Zhang
  * @ Create Time: 2023-02-27 10:41:32
- * @ Modified by: Your name
- * @ Modified time: 2023-06-09 13:31:51
+ * @ Modified by: Adam Zhang
+ * @ Modified time: 2023-07-06 22:29:01
  * @ Description:
  *     1. 描述项目经验
+ * -- 2023/07/06: export section wrapper as "projects" for constants to pull
  */
 
 
@@ -107,4 +108,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");

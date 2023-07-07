@@ -1,10 +1,11 @@
 /**
  * @ Author: Adam Zhang
  * @ Create Time: 2023-07-01 10:41:16
- * @ Modified by: Your name
- * @ Modified time: 2023-07-04 22:57:25
+ * @ Modified by: Adam Zhang
+ * @ Modified time: 2023-07-06 22:20:16
  * @ Description: Deisgn of the navigation bar
  * - 2023/07/04: add github and linkedin links and change the font size
+ * - 2023/07/06: add project section for the navigation bar
 */
 
 import React, { useEffect, useState } from "react";

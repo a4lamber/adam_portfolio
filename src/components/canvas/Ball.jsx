@@ -1,8 +1,8 @@
 /**
  * @ Author: Adam Zhang
  * @ Create Time: 2023-02-27 11:09:06
- * @ Modified by: Your name
- * @ Modified time: 2023-07-04 16:17:10
+ * @ Modified by: Adam Zhang
+ * @ Modified time: 2023-07-06 21:43:01
  * @ Description: 来做我们的3D球吧
  */
 
@@ -55,7 +55,13 @@ const BallCanvas = ({ icon }) => {
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}>
-        <OrbitControls enableZoom={false} />
+        <OrbitControls
+          enableZoom={false}
+          minPolarAngle={0}
+          maxPolarAngle={Math.PI / 2 - 0.1}
+          minAzimuthAngle={-Math.PI / 4}
+          maxAzimuthAngle={Math.PI / 4}
+        />
         <Ball imgUrl={icon} />
       </Suspense>
 
