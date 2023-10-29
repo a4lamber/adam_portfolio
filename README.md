@@ -1,6 +1,7 @@
 # Motivation
 
-Personal portfolio website to showcase my projects and advertise my freelancer work.
+Personal portfolio website to host some of my side-projects and advertise my freelancer work. 
+
 # Deployment
 
 1. Install the `gh-pages`  package

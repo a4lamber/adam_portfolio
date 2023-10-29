@@ -1,8 +1,8 @@
 /**
  * @ Author: Adam Zhang
  * @ Create Time: 2023-07-01 10:41:16
- * @ Modified by: Adam Zhang
- * @ Modified time: 2023-07-06 22:20:16
+ * @ Modified by: Your name
+ * @ Modified time: 2023-10-29 11:20:58
  * @ Description: Deisgn of the navigation bar
  * - 2023/07/04: add github and linkedin links and change the font size
  * - 2023/07/06: add project section for the navigation bar
@@ -71,6 +71,11 @@ const Navbar = () => {
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <a href="https://www.linkedin.com/in/yixiangloo/">LinkedIn</a>
           </li>
+          {/* stuff */}
+          <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+            <a href="https://datawithadam.hashnode.dev/">Blog</a>
+          </li>
+
           <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
             <a href="https://github.com/a4lamber">Github</a>
           </li>
