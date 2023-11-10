@@ -39,7 +39,7 @@ export default defineConfig({
 npm run deploy
 ```
 
-Now, you have deployed this website and you could check it under your repo's `Settings -> Pages`.
+Now, you have deployed this website and you could check it under your repo's `Settings -> Pages`..
 
 
 
